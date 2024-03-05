@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta
+            name="viewport"
+            content="width=device-width, initial-scale=1.0"
+        >
+        <link rel="stylesheet" href="style.css">
+        <script src="node_modules/axios/dist/axios.min.js"></script>
+        <title>pray time</title>
+    </head>
+
+    <body>
+        <div class="container">
+            <div class="head">
+                <h3>تاريخ اليوم</h3>
+                <div class="date">2023-09-06</div>
+            </div>
+            <div class="city">
+                <h3>المدينة</h3>
+                <select>
+                    <option value="Albania" selected>Albania</option>
+                </select>
+            </div>
+            <div class="pray-time">
+                <h3>اوقات الصلاة</h3>
+                <ul>
+                    <li>
+                        <span>Fajr</span>
+                        <span id="Fajr">4:36</span>
+                    </li>
+                    <li>
+                        <span>Sunrise</span>
+                        <span id="Sunrise">4:36</span>
+                    </li>
+                    <li>
+                        <span>Dhuhr</span>
+                        <span id="Dhuhr">4:36</span>
+                    </li>
+                    <li>
+                        <span>Asr</span>
+                        <span id="Asr">4:36</span>
+                    </li>
+                    <li>
+                        <span>Maghrib</span>
+                        <span id="Maghrib">4:36</span>
+                    </li>
+                    <li>
+                        <span>Isha</span>
+                        <span id="Isha">4:36</span>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </body>
+    <script src="country-list.js"></script>
+    <script src="main.js"></script>
+
+</html>
